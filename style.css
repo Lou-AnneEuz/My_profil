@@ -1,0 +1,97 @@
+body {background-color:#efd7e3;
+color: indigo;
+text-align: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    color:indigo;
+    font-size : 40px; text-decoration: underline;
+}
+h2 {
+    color: indigo ;
+    front-size : 30px
+}
+
+p {
+    color: indigo;
+    front-size : 20px;
+}
+
+li{
+    text-align: justify;
+}
+
+img {border-radius: 20%;}
+
+a{
+    color: indigo;
+    text-decoration: none;
+}
+
+a:hover {color: blue;
+opacity: 85%
+;}
+
+div {
+    border: solid 2px rgb(255, 255, 255);
+    margin: 45px;
+}
+
+/* Designe with class and ID */
+
+.container {
+    width: 900px;
+    margin: 200px;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+
+
+
+.card-white {
+    background-color: white;
+    padding: 29px;
+    margin: 30px;
+    box-shadow: 0px 10px 30px gray;
+    border-radius: 0%
+    
+}
+
+.btn-blue {
+    background-color: #efd7e3;
+    color: indigo ;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+.list-inline li {
+    display: list-item;
+    font-size: 20px;
+}
+
+.img-circle {
+    border-radius: 50px;
+}
